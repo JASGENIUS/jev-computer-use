@@ -1,0 +1,18 @@
+# Yours, not the project's: your key, your transcripts, your settings,
+# the corrections you taught it.
+.env
+logs/
+settings.json
+learned.json
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+# Wake-word models and recordings, if you train one
+*.onnx
+wake_data/
+wake_training/

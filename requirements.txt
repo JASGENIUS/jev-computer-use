@@ -1,0 +1,18 @@
+# Speech-to-text. Uses CUDA when there's a card and the CPU otherwise.
+faster-whisper>=1.0.0
+ctranslate2>=4.0
+numpy>=1.24
+sounddevice>=0.4.6
+
+# Hotkeys, window and process handling
+keyboard>=0.13.5
+psutil>=5.9
+
+# The Jev API
+requests>=2.31
+
+# Tests
+pytest>=7.4
+
+# Optional: an acoustic wake word (--wake acoustic). No model for "Jev" ships.
+# openwakeword>=0.6
